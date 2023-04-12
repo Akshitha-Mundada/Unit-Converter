@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- external Style sheet links starts here-->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- external Style sheet links starts here-->
+
+    <!-- Google fonts links starts here-->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Google fonts links ends here-->
+
+    <title>Unit Converter</title>
+</head>
+
+<body>
+
+    <!-- main section starts here -->
+
+    <section id="main-section">
+        <h2 id="main-head">Metric/Imperial Unit Conversion</h2>
+        <input type="number" id="input-num">
+        <button type="submit" id="convert-btn">Convert</button>
+    </section>
+
+    <!-- main section ends here -->
+
+    <!-- units section starts here -->
+
+    <section id="unit-section">
+
+        <!-- length section starts here -->
+
+        <div id="length" class="card">
+            <h3 class="card-head">Length (Meter/Feet)</h3>
+            <div class="card-text">
+                <p id="meter"></p>
+                &nbsp;<span>|</span>&nbsp;
+                <p id="feet"></p>
+            </div>
+        </div>
+
+        <!-- length section ends here -->
+
+        <!-- volume section starts here -->
+
+        <div id="volume" class="card">
+            <h3 class="card-head">Volume (Liters/Gallons)</h3>
+            <div class="card-text">
+                <p id="liter"></p>
+                &nbsp;<span>|</span>&nbsp;
+                <p id="gallons"></p>
+            </div>
+        </div>
+
+        <!-- volume section ends here -->
+
+        <!-- mass section starts here -->
+
+        <div id="mass" class="card">
+            <h3 class="card-head">Mass (Kilograms/Pounds)</h3>
+            <div class="card-text">
+                <p id="kilos"></p>
+                &nbsp;<span>|</span>&nbsp;
+                <p id="pounds"></p>
+            </div>
+        </div>
+
+        <!-- mass section ends here -->
+    </section>
+
+    <!-- units section ends here -->
+
+    <!-- JS file starts here -->
+
+    <script src="script.js"></script>
+
+    <!-- JS file ends here -->
+</body>
+
+</html>
